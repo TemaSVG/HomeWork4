@@ -16,8 +16,8 @@ public class Main {
         }
         //Задание 3
         int speed = 35;
-        if (speed >= 60) {
-            System.out.println("Если скорость " + speed + " то можно ездить спокой.\n");
+        if (speed <= 60) {
+            System.out.println("Если скорость " + speed + " то можно ездить спокойно.\n");
         } else {
             System.out.println("Если скорость " + speed + " то придется заплатить штраф.\n");
         }
@@ -36,15 +36,15 @@ public class Main {
             System.out.println("Если возраст человека равен " + аgePerson + " ,то ему нужно ходить на работу.\n");
         }
         //Задание 5
-        int ageСhild = 14;
-        if (ageСhild < 5) {
-            System.out.println("Если возраст ребенка равен " + ageСhild + ", то он не может кататься на аттракционе.\n");
+        int ageChild = 14;
+        if (ageChild < 5) {
+            System.out.println("Если возраст ребенка равен " + ageChild + ", то он не может кататься на аттракционе.\n");
         }
-        if (ageСhild >= 5 && ageСhild < 14) {
-            System.out.println("Если возраст ребенка равен " + ageСhild + ", то он может кататься только в сопровождении взрослого.Если взрослого нет, то кататься нельзя.\n");
+        if (ageChild >= 5 && ageChild < 14) {
+            System.out.println("Если возраст ребенка равен " + ageChild + ", то он может кататься только в сопровождении взрослого.Если взрослого нет, то кататься нельзя.\n");
         }
-        if (ageСhild >= 14) {
-            System.out.println("Если возраст ребенка равен " + ageСhild + ", то он может кататься без сопровождения взрослого.\n");
+        if (ageChild >= 14) {
+            System.out.println("Если возраст ребенка равен " + ageChild + ", то он может кататься без сопровождения взрослого.\n");
         }
         //Задание 6
         int countPerson = 25;
